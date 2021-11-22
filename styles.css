@@ -1,0 +1,87 @@
+main {
+    display: flex;
+    margin: 0 250px;
+}
+.box {
+    text-align: center;
+    background-color: rgb(10, 56, 87);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.box2 {
+    text-align: center;
+    background-color: #e3e2e7;
+    border: 1px solid rgb(62, 107, 136);;
+    width: fit-content;
+    padding: 20px;
+    border-left: 1px solid white;
+    border-radius: 0px 25px 25px 0px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h2 {
+    color: #000000;
+    font-family: Dragons, Courier, monospace;
+}
+
+.band {
+    color: #59425f;
+    font-family: Dragons, Courier, monospace;
+}
+
+p, a {
+    color: rgb(0, 0, 0);
+    font-family: DragonsL, Courier, monospace;
+}
+
+.link {
+    font-family: Dragons, Courier, monospace;
+    color:rgb(0, 139, 7);
+    font-weight: 800;
+    text-decoration: none;
+    
+}
+
+.link:hover {
+    color:rgb(5, 216, 16);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.photo img {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.animes {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.animes img {
+    width: 250px;
+    border: 1px solid black;
+}
+
+.spot {
+    margin-top: 50px;
+}
+
+@font-face {
+    font-family: Dragons;
+    src: url(fonts/devil_breeze_bold-webfont.woff2);
+}
+
+@font-face {
+    font-family: DragonsL;
+    src: url(fonts/devil_breeze_medium-webfont.woff2);
+}
